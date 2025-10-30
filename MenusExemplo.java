@@ -27,8 +27,7 @@ public class MenusExemplo extends JFrame {
         JMenu ajuda = new JMenu("Ajuda");
         JMenuItem sobre = new JMenuItem("Sobre");
         sobre.addActionListener(e ->
-                JOptionPane.showMessageDialog(this, "Exemplo de menus\nSwing -
-                        Java"));
+                JOptionPane.showMessageDialog(this, "Exemplo de menus\nSwing - Java"));
                         ajuda.add(sobre);
         barra.add(arquivo);
         barra.add(ajuda);

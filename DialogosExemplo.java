@@ -16,20 +16,17 @@ public class DialogosExemplo extends JFrame {
                         "Mensagem", JOptionPane.INFORMATION_MESSAGE)
         );
         btnConfirm.addActionListener(e -> {
-            int opt = JOptionPane.showConfirmDialog(this, "Deseja
-                    continuar?", "Confirmar", JOptionPane.YES_NO_CANCEL_OPTION);
+            int opt = JOptionPane.showConfirmDialog(this, "Deseja continuar?", "Confirmar", JOptionPane.YES_NO_CANCEL_OPTION);
                     JOptionPane.showMessageDialog(this, "Resposta: " + opt);
         });
         btnEntrada.addActionListener(e -> {
-            String nome = JOptionPane.showInputDialog(this, "Digite
-                    seu nome:");
+            String nome = JOptionPane.showInputDialog(this, "Digite seu nome:");
             JOptionPane.showMessageDialog(this, "Você digitou: " +
                     nome);
         });
         btnOpcoes.addActionListener(e -> {
             String[] cursos = {"Java", "Python", "C#", "JavaScript"};
-            int idx = JOptionPane.showOptionDialog(this, "Escolha um
-                    curso:", "Cursos",
+            int idx = JOptionPane.showOptionDialog(this, "Escolha um curso:", "Cursos",
             JOptionPane.DEFAULT_OPTION,
                     JOptionPane.QUESTION_MESSAGE, null, cursos, cursos[0]);
             JOptionPane.showMessageDialog(this, "Selecionado: " + (idx

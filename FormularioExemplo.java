@@ -31,8 +31,7 @@ public class FormularioExemplo extends JFrame {
         add(form, BorderLayout.CENTER);
         add(botoes, BorderLayout.SOUTH);
         btnSalvar.addActionListener(e -> {
-            String msg = String.format("Nome: %s%nEmail: %s%nIdade:
-                            %s",
+            String msg = String.format("Nome: %s%nEmail: %s%nIdade: %s",
                     tfNome.getText(), tfEmail.getText(),
                     tfIdade.getText());
             JOptionPane.showMessageDialog(this, msg, "Dados salvos",

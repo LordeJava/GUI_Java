@@ -11,8 +11,7 @@ public class CheckBoxExemplo extends JFrame {
         JCheckBox cbNotif = new JCheckBox("Ativar notificações");
         JCheckBox cbTermos = new JCheckBox("Aceito os termos");
         JLabel status = new JLabel("Selecione opções");
-        ItemListener il = e -> status.setText(String.format("Emails:
-                %s | Notif: %s | Termos: %s",
+        ItemListener il = e -> status.setText(String.format("Emails: %s | Notif: %s | Termos: %s",
         cbEmail.isSelected(), cbNotif.isSelected(),
                 cbTermos.isSelected()));
         cbEmail.addItemListener(il);

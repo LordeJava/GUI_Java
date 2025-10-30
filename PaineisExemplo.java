@@ -11,8 +11,7 @@ public class PaineisExemplo extends JFrame {
         topo.add(new JLabel("Topo (FlowLayout)"));
         topo.add(new JButton("Botão A"));
         JPanel centro = new JPanel(new GridLayout(2,2,8,8));
-        centro.setBorder(BorderFactory.createTitledBorder("Centro
-        (GridLayout)"));
+        centro.setBorder(BorderFactory.createTitledBorder("Centro (GridLayout)"));
         centro.add(new JButton("1"));
         centro.add(new JButton("2"));
         centro.add(new JButton("3"));

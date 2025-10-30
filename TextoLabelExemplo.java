@@ -7,9 +7,7 @@ public class TextoLabelExemplo extends JFrame {
         setSize(420, 220);
         setLocationRelativeTo(null);
         JLabel puro = new JLabel("Texto simples com JLabel");
-        JLabel html = new JLabel("<html><h3>Texto com
-                <i>HTML</i></h3><p>Você pode <b>formatar</b>
-                minimamente.</p></html>");
+        JLabel html = new JLabel("<html><h3>Texto com <i>HTML</i></h3><p>Você pode <b>formatar</b> minimamente.</p></html>");
         puro.setHorizontalAlignment(SwingConstants.CENTER);
         html.setHorizontalAlignment(SwingConstants.CENTER);
         setLayout(new GridLayout(2,1));

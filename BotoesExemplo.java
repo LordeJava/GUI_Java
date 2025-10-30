@@ -10,8 +10,7 @@ public class BotoesExemplo extends JFrame {
         setLocationRelativeTo(null);
         JLabel lbl = new JLabel("Cliques: 0");
         JButton btnClique = new JButton("Clique-me");
-        JButton btnDesabilitar = new JButton("Desabilitar/
-                Habilitar");
+        JButton btnDesabilitar = new JButton("Desabilitar/Habilitar");
                 btnClique.addActionListener(e -> lbl.setText("Cliques: " +
                         (++contador)));
         btnDesabilitar.addActionListener(e ->
